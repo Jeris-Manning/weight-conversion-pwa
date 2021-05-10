@@ -4,7 +4,7 @@
   "theme_color": "#0d646b",
   "background_color": "#0d646b",
   "display": "standalone",
-  "start_url": "./index.html",
+  "start_url": ".",
 
   "description": "Convert imperial volume measurements to metric grams",
   "icons": [
