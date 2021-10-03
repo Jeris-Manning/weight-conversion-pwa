@@ -238,6 +238,13 @@ function App() {
           Clear
         </button>
       </SelectContainer>
+
+      <audio
+        controls
+        src="https://github.com/Jeris-Manning/FILES/raw/master/carne.mp3">
+        Your browser does not support the
+        <code>audio</code> element.
+      </audio>
     </MainDisplay>
   );
 }
@@ -253,6 +260,9 @@ const MainDisplay = styled.div`
   min-height: 100vh;
   h1 {
     max-width: 300px;
+  }
+  audio {
+    margin-top: 20px;
   }
 `;
 
